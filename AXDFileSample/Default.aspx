@@ -13,7 +13,7 @@
         <br />
         <a href="Images/view.axd">View AXD</a>
         <br />
-        <a href="Images/Subfolder/view.asx">Sub View AXD</a>
+        <a href="Images/Subfolder/view.axd">Sub View AXD</a>
         </div>
     </form>
 </body>
