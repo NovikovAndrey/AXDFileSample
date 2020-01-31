@@ -4,11 +4,16 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title> Use AXD</title>
 </head>
 <body>
     <form id="form1" runat="server">
         <div>
+        <a href="/Images/">Images</a>
+        <br />
+        <a href="Images/view.axd">View AXD</a>
+        <br />
+        <a href="Images/Subfolder/view.asx">Sub View AXD</a>
         </div>
     </form>
 </body>
