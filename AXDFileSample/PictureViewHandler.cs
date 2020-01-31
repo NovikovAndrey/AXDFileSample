@@ -5,7 +5,13 @@ using System.Web;
 
 namespace AXDFileSample
 {
-    public class PictureViewHandler
+    public class PictureViewHandler : IHttpHandler
     {
+        public bool IsReusable => false;
+
+        public void ProcessRequest(HttpContext context)
+        {
+            
+        }
     }
 }
